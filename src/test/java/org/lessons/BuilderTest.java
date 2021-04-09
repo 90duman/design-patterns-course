@@ -2,6 +2,7 @@ package org.lessons;
 
 import org.junit.jupiter.api.Test;
 import org.lessons.builder.Order;
+import org.lessons.builder.User;
 
 /**
  * Test for buidler
@@ -22,5 +23,15 @@ public class BuilderTest {
                 .build();
 
         System.out.println(order);
+    }
+
+    @Test
+    public void betterBuidlerTest() {
+        User user = User.builder()
+                .id(132l)
+                .username("axteel")
+                .password("qwerty")
+                .build();
+        System.out.println(user);
     }
 }

@@ -9,4 +9,5 @@ package org.lessons.singleton.homework;
  * @version 1.0
  */
 public class Logger {
+
 }
