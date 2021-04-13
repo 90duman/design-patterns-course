@@ -9,4 +9,12 @@ package org.lessons.prototype.demo;
  */
 public class Record {
     private String rec;
+
+    public String getRec() {
+        return rec;
+    }
+
+    public void setRec(String rec) {
+        this.rec = rec;
+    }
 }

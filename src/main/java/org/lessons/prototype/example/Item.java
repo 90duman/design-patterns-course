@@ -8,7 +8,7 @@ package org.lessons.prototype.example;
  * @author axteel on 09.04.2021 : 18:12
  * @version 1.0
  */
-public abstract class Item implements Cloneable{
+public abstract class Item implements Cloneable {
     private String title;
     private String price;
     private String url;

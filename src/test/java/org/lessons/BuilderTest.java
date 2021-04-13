@@ -1,6 +1,7 @@
 package org.lessons;
 
 import org.junit.jupiter.api.Test;
+import org.lessons.builder.Customer;
 import org.lessons.builder.Order;
 import org.lessons.builder.User;
 
@@ -27,11 +28,24 @@ public class BuilderTest {
 
     @Test
     public void betterBuidlerTest() {
-        User user = User.builder()
-                .id(132l)
-                .username("axteel")
+        User u = User.builder()
+                .id(123l)
+                .username("Andrey")
                 .password("qwerty")
                 .build();
-        System.out.println(user);
+
+        System.out.println(u);
+    }
+
+    @Test
+    public void lombokBuilderTest() {
+        Customer c = Customer.builder()
+                .id(123l)
+                .build();
+    }
+
+    @Test
+    public void casting() {
+
     }
 }
