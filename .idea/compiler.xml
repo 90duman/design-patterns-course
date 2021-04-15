@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="DesignPatternsLessons" />
+        <module name="design-patterns-course" />
       </profile>
     </annotationProcessing>
   </component>
